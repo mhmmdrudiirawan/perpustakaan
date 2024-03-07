@@ -1,0 +1,58 @@
+/* Reset default browser styls */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styls */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styls */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Navigation menu styls */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Logout link styls */
+a.logout-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #dc3545;
+}
+
+a.logout-link:hover {
+    color: #721c24;
+}
